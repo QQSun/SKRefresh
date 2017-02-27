@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		846D863E1DDBE9DF008BA4B5 /* SKRefreshAutoChiBaoZiFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D863D1DDBE9DF008BA4B5 /* SKRefreshAutoChiBaoZiFooter.swift */; };
 		846D86481DDC0579008BA4B5 /* SKRefreshBackChiBaoZiFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D86471DDC0579008BA4B5 /* SKRefreshBackChiBaoZiFooter.swift */; };
-		846D86601DDC37B7008BA4B5 /* SKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D864B1DDC37B7008BA4B5 /* SKExtension.swift */; };
 		846D86611DDC37B7008BA4B5 /* SKRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D864C1DDC37B7008BA4B5 /* SKRefreshComponent.swift */; };
 		846D86621DDC37B7008BA4B5 /* SKRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D864D1DDC37B7008BA4B5 /* SKRefreshFooter.swift */; };
 		846D86631DDC37B7008BA4B5 /* SKRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D864E1DDC37B7008BA4B5 /* SKRefreshHeader.swift */; };
@@ -31,12 +30,12 @@
 		84809EBE1DD961A000369403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84809EBC1DD961A000369403 /* Main.storyboard */; };
 		84809EC01DD961A000369403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84809EBF1DD961A000369403 /* Assets.xcassets */; };
 		84809EC31DD961A000369403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84809EC11DD961A000369403 /* LaunchScreen.storyboard */; };
+		8488279C1DDD50FE00414570 /* SKRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488279B1DDD50FE00414570 /* SKRefreshExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		846D863D1DDBE9DF008BA4B5 /* SKRefreshAutoChiBaoZiFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshAutoChiBaoZiFooter.swift; sourceTree = "<group>"; };
 		846D86471DDC0579008BA4B5 /* SKRefreshBackChiBaoZiFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshBackChiBaoZiFooter.swift; sourceTree = "<group>"; };
-		846D864B1DDC37B7008BA4B5 /* SKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKExtension.swift; sourceTree = "<group>"; };
 		846D864C1DDC37B7008BA4B5 /* SKRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshComponent.swift; sourceTree = "<group>"; };
 		846D864D1DDC37B7008BA4B5 /* SKRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshFooter.swift; sourceTree = "<group>"; };
 		846D864E1DDC37B7008BA4B5 /* SKRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshHeader.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		84809EBF1DD961A000369403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84809EC21DD961A000369403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84809EC41DD961A000369403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8488279B1DDD50FE00414570 /* SKRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRefreshExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		846D864A1DDC37B7008BA4B5 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				846D864B1DDC37B7008BA4B5 /* SKExtension.swift */,
+				8488279B1DDD50FE00414570 /* SKRefreshExtension.swift */,
 				846D864C1DDC37B7008BA4B5 /* SKRefreshComponent.swift */,
 				846D864D1DDC37B7008BA4B5 /* SKRefreshFooter.swift */,
 				846D864E1DDC37B7008BA4B5 /* SKRefreshHeader.swift */,
@@ -255,12 +255,12 @@
 				846D866A1DDC37B7008BA4B5 /* SKRefreshBackNormalFooter.swift in Sources */,
 				846D863E1DDBE9DF008BA4B5 /* SKRefreshAutoChiBaoZiFooter.swift in Sources */,
 				846D86681DDC37B7008BA4B5 /* SKRefreshBackFooter.swift in Sources */,
-				846D86601DDC37B7008BA4B5 /* SKExtension.swift in Sources */,
 				84809EBB1DD9619F00369403 /* ViewController.swift in Sources */,
 				84809EB91DD9619F00369403 /* AppDelegate.swift in Sources */,
 				846D86631DDC37B7008BA4B5 /* SKRefreshHeader.swift in Sources */,
 				846D866B1DDC37B7008BA4B5 /* SKRefreshBackStateFooter.swift in Sources */,
 				846D86621DDC37B7008BA4B5 /* SKRefreshFooter.swift in Sources */,
+				8488279C1DDD50FE00414570 /* SKRefreshExtension.swift in Sources */,
 				846D86651DDC37B7008BA4B5 /* SKRefreshAutoGifFooter.swift in Sources */,
 				846D86691DDC37B7008BA4B5 /* SKRefreshBackGifFooter.swift in Sources */,
 				846D866D1DDC37B7008BA4B5 /* SKRefreshNormalHeader.swift in Sources */,
